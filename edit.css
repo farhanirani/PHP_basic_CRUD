@@ -1,0 +1,59 @@
+* {
+  color: white;
+  margin: 0;
+  background-color: rgb(0, 93, 206);
+}
+
+h2 {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.edit__button {
+  position: absolute;
+  color: white;
+  background-color: rgb(56, 198, 56);
+  padding: 10px 40px;
+  margin: 0px 30px;
+  left: 40px;
+  bottom: 100px;
+}
+
+.back__button {
+  position: absolute;
+  color: white;
+  background-color: red;
+  padding: 10px 40px;
+  margin: 0px 30px;
+  left: 40px;
+  bottom: 40px;
+}
+
+.change__pass {
+  position: absolute;
+  color: white;
+  background-color: rgb(238, 0, 255);
+  padding: 10px 40px;
+  margin: 0px 30px;
+  left: 170px;
+  bottom: 40px;
+}
+
+input {
+  background-color: white;
+  color: black;
+}
+
+.leave__space2 {
+  margin: auto;
+  width: 50%;
+}
+
+.leave__space {
+  margin: auto;
+  width: 50%;
+}
+
+.leave__space > * {
+  margin-top: 10px;
+}

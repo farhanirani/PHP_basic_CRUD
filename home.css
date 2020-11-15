@@ -1,0 +1,25 @@
+* {
+  color: white;
+  margin: 0;
+  background-color: rgb(0, 93, 206);
+}
+
+.login__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40vh;
+}
+
+button {
+  color: black;
+  background-color: white;
+  padding: 10px 40px;
+  margin: 0px 30px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30vh;
+  margin-bottom: -30vh;
+}

@@ -1,0 +1,38 @@
+* {
+  color: white;
+  margin: 0;
+  background-color: rgb(0, 93, 206);
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30vh;
+  margin-bottom: -30vh;
+}
+
+.edit__button {
+  position: absolute;
+  color: white;
+  background-color: rgb(56, 198, 56);
+  padding: 10px 40px;
+  margin: 0px 30px;
+  left: 40px;
+  bottom: 100px;
+}
+
+.back__button {
+  position: absolute;
+  color: white;
+  background-color: red;
+  padding: 10px 40px;
+  margin: 0px 30px;
+  left: 40px;
+  bottom: 40px;
+}
+
+.login__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40vh;
+}
