@@ -9,6 +9,9 @@ if (!empty($_POST['password'])) {
 	if (!strcmp($_POST['password'], $_POST['repassword'])) {
 		$pas = $_POST['password'];
 		$conn = new mysqli("localhost", "root", "", "exp6_wdl");
+		if ($conn->connect_error)
+			die("Connection failed: " . $conn->connect_error);
+
 		$sql = "UPDATE user set password = '$pas' where uname = '$temp1' and password = '$temp2' ";
 		mysqli_query($conn, $sql);
 		$_SESSION['paas'] = $pas;
