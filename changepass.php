@@ -46,5 +46,5 @@ if (!empty($_POST['password'])) {
 </script>
 
 <a href="userpage.php">
-	<button class="back__button">Cancek</button>
+	<button class="back__button">Cancel</button>
 </a>
